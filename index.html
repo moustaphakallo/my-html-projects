@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>introduction to css</title>
+    <style>
+      .first-div {
+        background-color: chocolate;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 200px;
+        width: 100%;
+      }
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+      }
+
+      .link-parent {
+        background-color: burlywood;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .link-div {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 25px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-div">
+      <h1>this is my banner text</h1>
+    </div>
+
+    <div class="link-parent">
+      <div class="link-div">
+        <a href="">home</a>
+        <a href="">info</a>
+        <a href="">contact</a>
+        <a href="">hubpages</a>
+      </div>
+    </div>
+  </body>
+</html>

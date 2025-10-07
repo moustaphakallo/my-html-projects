@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="">
+      <legend>information about entreprise</legend>
+      <label for="name">entreprise Name</label>
+      <input type="text"  placeholder="e.g SAG"  name="" required />
+
+      <label for="name">work place</label>
+      <input type="text" placeholder="siguiri" name="" required />
+
+
+      <label for="name">fondation date</label>
+      <input type="date" name="" required />
+
+      <label for="name">certificat de l'entreprise</label>
+      <input type="file" name="" />
+
+      <label for="name">phone number</label>
+      <input type="number" placeholder="623-95-20-11" name="" required />
+
+      <!-- permettre a l'utilisateur de d'ecrire un commentaire -->
+
+      <label for="name">que pensez vous de nous</label>
+      <textarea name="" placeholder="donner votre avi" cols="20" rows="5" id=""></textarea>
+
+
+      <!-- choisir le sex -->
+      <label for="name">sex</label>
+      <input type="radio" name="sex" readonly /><label for="">male</label>
+      <input type="radio" name="sex" required /><label for="">female</label>
+
+
+<!-- permettre de choisir un de plusieur -->
+      <select name="" required>
+        <option value="">----Choice a country-----</option>
+        <option value="Guinea">Guinea</option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Mali">Mali</option>
+        <option value="Togo">Togo</option>
+        <option value="Benin">Benin</option>
+      </select>
+
+      <label for="name">Nombre d'employes</label>
+      <input type="radio" name="Nombre" /><label for="">1-5</label>
+      <input type="radio" name="Nombre" /><label for="5">5-10</label>
+      <input type="radio" name="Nombre" /><label for="">10-15</label>
+      <input type="radio" name="Nombre" /><label for="">15-plus</label>
+
+
+      <button type="submit">submit</button>
+   
+    </form>
+  </body>
+</html>
