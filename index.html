@@ -10,7 +10,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    height: 200px;
+        height: 200px;
         width: 100%;
       }
       h1 {
@@ -35,9 +35,35 @@
         font-size: 25px;
         color: green;
       }
+      .navbar {
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 64px;
+      }
+      .navbar a {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+      }
+
+      .navbar a:hover {
+        color: blue;
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="billy.html">Table 1</a>
+      <a href="video.html">Table 2</a>
+      <a href="KABA1.html"> Heading</a>
+      <a href="kallo.html"> Form Input 1</a>
+      <a href="secondepabebilly.html">Form input 2</a>
+    </nav>
     <div class="first-div">
       <h1>this is my banner text</h1>
     </div>
